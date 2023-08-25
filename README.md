@@ -22,4 +22,4 @@ This application was developed on Xcode version 14.3.1, and uses Google Firebase
 - Leaderboard between all users
 - Friends function
 
-If you have any questions, feel free to contact me at aryan.gandevia@gmail.com, @aryan2gandevia on Instagram or [LinkedIn](https://www.linkedin.com/in/aryangandevia/)
+If you have any questions, feel free to contact me at aryan.gandevia@gmail.com, [@aryan2gandevia](https://www.instagram.com/aryan2gandevia/) on Instagram or [LinkedIn](https://www.linkedin.com/in/aryangandevia/)
