@@ -81,6 +81,9 @@ class VersusTheWorldViewViewModel: ObservableObject {
         liftMap["Barbell Inclined Bench Press"] = [0.5, 0.75, 1.0, 1.5, 1.75]
         liftMap["Barbell Deadlift"] = [1.0, 1.5, 2.0, 2.5, 3.0]
         liftMap["Barbell Squat"] = [0.75, 1.25, 1.5, 2.25, 2.75]
+        liftMap["Barbell Romanian Deadlift"] = [0.75, 1.0, 1.5, 2.0, 2.75]
+        liftMap["Barbell Shoulder Press"] = [0.35, 0.55, 0.8, 1.1, 1.4]
+        liftMap["Barbell Row"] = [0.5, 0.75, 1.0, 1.5, 1.75]
         
     }
     

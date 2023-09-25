@@ -12,10 +12,14 @@ struct NewLiftView: View {
     let options = ["Barbell Bench Press",
                    "Barbell Inclined Bench Press",
                    "Barbell Deadlift",
-                   "Barbell Squat"]
+                   "Barbell Romanian Deadlift",
+                   "Barbell Row",
+                   "Barbell Squat",
+                   "Barbell Shoulder Press"]
     
     @StateObject var viewModel = NewLiftViewViewModel()
     @Binding var newLiftPresented: Bool
+    
     
     // Properties in case we are editing instead of adding something new
     var edit: Bool
@@ -33,6 +37,14 @@ struct NewLiftView: View {
             
             Text("Please use pounds!")
                 .offset(y:10)
+            
+            Button {
+                viewModel.showTips = true
+            } label: {
+                Text("Tips")
+                    .offset(y:10)
+                    .font(.system(size: 22))
+            }
             
             Form {
                 // Lift
@@ -75,6 +87,7 @@ struct NewLiftView: View {
                 Alert(title: Text("Error"),
                       message: Text(viewModel.errorMessage))
             }
+        
         }
         .onAppear {
             // If editing as opposed to making new, set the values from before
@@ -83,6 +96,9 @@ struct NewLiftView: View {
                 viewModel.numReps = numReps
                 viewModel.weight = weight
             }
+        }
+        .sheet(isPresented: $viewModel.showTips) {
+            TipsView(display: $viewModel.showTips)
         }
     }
 }

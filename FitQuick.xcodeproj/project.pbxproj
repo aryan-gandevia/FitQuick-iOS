@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2519DC872ABBA6FB006C23BA /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519DC862ABBA6FB006C23BA /* TipsView.swift */; };
 		2547D2F72A8837F7003C7E25 /* FitQuickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547D2F62A8837F7003C7E25 /* FitQuickApp.swift */; };
 		2547D2F92A8837F7003C7E25 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547D2F82A8837F7003C7E25 /* MainView.swift */; };
 		2547D2FB2A8837F8003C7E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2547D2FA2A8837F8003C7E25 /* Assets.xcassets */; };
@@ -45,12 +46,14 @@
 		2547D35A2A8C803C003C7E25 /* CompareViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547D3592A8C803C003C7E25 /* CompareViewViewModel.swift */; };
 		2547D35C2A903091003C7E25 /* FaceOffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547D35B2A903091003C7E25 /* FaceOffView.swift */; };
 		2547D35E2A9042F7003C7E25 /* FaceOffViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547D35D2A9042F7003C7E25 /* FaceOffViewViewModel.swift */; };
+		25744DD82AC0FD4E00D28C81 /* ChunkFive-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25744DD72AC0FD4E00D28C81 /* ChunkFive-Regular.ttf */; };
 		25BBC2862A91F52900F6D6F7 /* Papyrus.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 25BBC2852A91F52800F6D6F7 /* Papyrus.ttc */; };
 		25BBC28A2A928E8F00F6D6F7 /* VersusTheWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BBC2892A928E8F00F6D6F7 /* VersusTheWorldView.swift */; };
 		25BBC28C2A929DD700F6D6F7 /* VersusTheWorldViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BBC28B2A929DD700F6D6F7 /* VersusTheWorldViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2519DC862ABBA6FB006C23BA /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		2547D2F32A8837F7003C7E25 /* FitQuick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitQuick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2547D2F62A8837F7003C7E25 /* FitQuickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitQuickApp.swift; sourceTree = "<group>"; };
 		2547D2F82A8837F7003C7E25 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -84,6 +87,7 @@
 		2547D3592A8C803C003C7E25 /* CompareViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViewViewModel.swift; sourceTree = "<group>"; };
 		2547D35B2A903091003C7E25 /* FaceOffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceOffView.swift; sourceTree = "<group>"; };
 		2547D35D2A9042F7003C7E25 /* FaceOffViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceOffViewViewModel.swift; sourceTree = "<group>"; };
+		25744DD72AC0FD4E00D28C81 /* ChunkFive-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChunkFive-Regular.ttf"; sourceTree = "<group>"; };
 		25BBC2852A91F52800F6D6F7 /* Papyrus.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Papyrus.ttc; sourceTree = "<group>"; };
 		25BBC2892A928E8F00F6D6F7 /* VersusTheWorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersusTheWorldView.swift; sourceTree = "<group>"; };
 		25BBC28B2A929DD700F6D6F7 /* VersusTheWorldViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersusTheWorldViewViewModel.swift; sourceTree = "<group>"; };
@@ -126,6 +130,7 @@
 		2547D2F52A8837F7003C7E25 /* FitQuick */ = {
 			isa = PBXGroup;
 			children = (
+				25744DD72AC0FD4E00D28C81 /* ChunkFive-Regular.ttf */,
 				25BBC2852A91F52800F6D6F7 /* Papyrus.ttc */,
 				2547D32A2A885D71003C7E25 /* Info.plist */,
 				2547D3142A883EEA003C7E25 /* Other */,
@@ -163,6 +168,7 @@
 				2547D3572A8C53BA003C7E25 /* BackgroundView.swift */,
 				2547D35B2A903091003C7E25 /* FaceOffView.swift */,
 				25BBC2892A928E8F00F6D6F7 /* VersusTheWorldView.swift */,
+				2519DC862ABBA6FB006C23BA /* TipsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25744DD82AC0FD4E00D28C81 /* ChunkFive-Regular.ttf in Resources */,
 				2547D2FE2A8837F8003C7E25 /* Preview Assets.xcassets in Resources */,
 				25BBC2862A91F52900F6D6F7 /* Papyrus.ttc in Resources */,
 				2547D2FB2A8837F8003C7E25 /* Assets.xcassets in Resources */,
@@ -293,6 +300,7 @@
 				2547D3562A8B0C84003C7E25 /* NewLiftItemViewViewModel.swift in Sources */,
 				2547D32E2A8884F0003C7E25 /* RegistrationView.swift in Sources */,
 				2547D3182A884122003C7E25 /* ProfileView.swift in Sources */,
+				2519DC872ABBA6FB006C23BA /* TipsView.swift in Sources */,
 				2547D3362A889683003C7E25 /* KeyboardObserver.swift in Sources */,
 				2547D35C2A903091003C7E25 /* FaceOffView.swift in Sources */,
 				2547D33E2A897040003C7E25 /* HomeView.swift in Sources */,

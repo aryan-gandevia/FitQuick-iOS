@@ -11,6 +11,8 @@ import Foundation
 class HomeViewViewModel: ObservableObject {
     @Published var showingNewLiftView = false
     
+    @Published var showTips = false
+    
     init () {}
     
     func delete(id: String, userId: String) {

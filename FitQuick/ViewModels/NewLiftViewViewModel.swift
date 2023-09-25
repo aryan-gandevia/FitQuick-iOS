@@ -16,6 +16,8 @@ class NewLiftViewViewModel: ObservableObject {
     @Published var showAlert = false
     @Published var errorMessage = ""
     
+    @Published var showTips = false
+    
     private var userId = ""
     
     init () {}

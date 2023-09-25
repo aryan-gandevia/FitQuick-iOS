@@ -65,7 +65,6 @@ struct CompareView: View {
                     .autocorrectionDisabled()
                     .padding()
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .offset(y: UIScreen.main.bounds.height * 0.04)
                 
                 VStack {
                     List(viewModel.searchResults, id: \.self) { result in

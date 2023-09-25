@@ -23,6 +23,14 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
+                HStack {
+                    Button("Tips") {
+                        viewModel.showTips = true
+                    }
+                    .offset(x: 15)
+                    .font(.system(size:20))
+                    Spacer()
+                }
                 List(lifts) { lift in
                     NewLiftItemView(item: lift)
                         .swipeActions {
@@ -49,6 +57,9 @@ struct HomeView: View {
                             liftName: "",
                             numReps: "",
                             weight: "")
+            }
+            .sheet(isPresented: $viewModel.showTips) {
+                TipsView(display: $viewModel.showTips)
             }
         }
     }

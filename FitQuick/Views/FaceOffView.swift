@@ -126,7 +126,7 @@ struct FaceOffView: View {
                             .frame(width:UIScreen.main.bounds.width * 0.9)
                             .offset(y:-10)
                     } else if viewModel.otherUserLifts.count == 0 {
-                        Text("The other user either has no lifts or you guys have no common lifts save. Try someone else!")
+                        Text("The other user either has no lifts or you both have no common lifts save. Try someone else!")
                             .foregroundColor(colorScheme == .light ? Color.green : Color.red)
                             .font(.system(size:20))
                             .multilineTextAlignment(.center)

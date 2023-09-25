@@ -18,6 +18,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Papyrus.ttc</string>
+		<string>ChunkFive-Regular.ttf</string>
 	</array>
 </dict>
 </plist>
